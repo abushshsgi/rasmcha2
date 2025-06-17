@@ -4,7 +4,8 @@ import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-const API_URL = 'http://localhost:5000'; // Backend server manzili
+const API_URL = 'https://rasmchaback-production.up.railway.app'; // Backend server manzili
+
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
